@@ -13,23 +13,6 @@ using namespace std;
 
 int main(){
     ifstream myfile ("/home/neha/Documents/imagepathlistph.txt");
-    /*char imageName[225][49];
-    int i =0;
-    int j = 0;
-    char x;
-    while (i<225){
-         myfile.get(x);
-         if(x== '\n'){
-             cout << imageName[i] << endl;
-             i++;
-             j=0;
-         }
-         else {
-              imageName[i][j] = x;
-              j++;
-         }
-    }*/
-    
     for (int k = 0; k<159; k++){
         char temp[40];
         char* temp2 = temp;
